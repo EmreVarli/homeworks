@@ -1,0 +1,365 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.header {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  line-height: 1.5;
+  box-sizing: border-box;
+  height: 37px;
+}
+
+.header-top::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #e5e5e5;
+  top: 37px;
+}
+
+.header-top-left {
+  float: left;
+  display: flex;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.header-bottom-right {
+  float: left;
+  display: flex !important;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.items a {
+  text-decoration: none;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  color: #63605d;
+  font-size: 12px;
+  font-weight: 400;
+  border-right: 1px solid #e5e5e5;
+  display: inline-block;
+  height: 37px;
+  line-height: 37px;
+  padding: 0px 10px;
+}
+.icons i {
+  display: inline-block;
+  height: 37px;
+  line-height: 37px;
+  padding: 0px 6px 0px 6px;
+}
+.header-top-right a {
+  text-decoration: none;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #63605d;
+  font-size: 12px;
+  font-weight: 400;
+  border-right: 1px solid #e5e5e5;
+  display: inline-block;
+  height: 37px;
+  line-height: 37px;
+  padding: 0px 10px;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-right-bar {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0px;
+}
+.bottom-right-bar a {
+  text-decoration: none;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0 0 0 12px;
+  line-height: 24px;
+}
+
+.header-top-left .languages menu .subscribe menu {
+  border-right: 10px solid #3f3f3f;
+}
+
+/* HEADER BİTTİ.*/
+
+.firstcontainer {
+  background-image: url(http://tastefulplanet.com/var/site/storage/images/6/0/3/8/8306-1-eng-GB/Homepage-banner.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.firstcontainer-text {
+  color: #fff;
+  font-size: 70px;
+}
+
+.secondcontainer {
+  background-image: url(http://tastefulplanet.com/var/site/storage/images/1/2/1/7/7121-1-eng-GB/Why-we-love-NYC.jpg);
+  background-size: cover;
+  width: 1110px;
+  height: 450px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.secondcontainer-banner {
+  width: 290px;
+  height: 65px;
+  background-color: #3c3330;
+  margin-bottom: 25px;
+}
+
+.secondcontainer-text {
+  height: 30px;
+  width: 290px;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+.thirdcontainer {
+  width: auto;
+  height: 400px;
+  margin-top: 90px;
+}
+
+.thirdcontainer h3 {
+  color: #706b68;
+  font-family: "Source Sans Pro";
+  font-size: 21px;
+  text-align: center;
+  margin: 0px;
+}
+
+.thirdcontainer > h2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #0073ae;
+  font-family: "Source Sans Pro";
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+}
+
+.thirdcontainer-cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.thirdcontainer-card1 {
+  background-image: url("http://tastefulplanet.com/var/site/storage/images/7/6/8/5/5867-1-eng-GB/Mexican-Cuisine.jpg");
+  height: 230px;
+  width: 335px;
+  margin: 15px;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+}
+
+.thirdcontainer-card2 {
+  background-image: url("http://tastefulplanet.com/var/site/storage/images/3/2/0/6/6023-1-eng-GB/Ethiopian-Cuisine.jpg");
+  height: 230px;
+  width: 335px;
+  margin: 15px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.thirdcontainer-card3 {
+  background-image: url("http://tastefulplanet.com/var/site/storage/images/9/7/1/6/6179-1-eng-GB/Thai-Cuisine.jpg");
+  height: 230px;
+  width: 335px;
+  margin: 15px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-text {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background: #3c3330;
+  width: 220px;
+  height: 55px;
+  text-align: center;
+}
+
+.picamsterdam {
+  background-image: url("http://tastefulplanet.com/var/site/storage/images/9/4/9/7/7949-1-eng-GB/Amsterdam-Netherlands.jpg");
+  width: 100%;
+  height: 579px;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.picamsterdam .p {
+  height: 600px;
+  width: 400px;
+  background: #0073ae;
+  margin-left: 100px;
+  z-index: 2;
+  border: 1px black solid;
+  color: white;
+  font-family: sans-serif;
+}
+
+.picamsterdam h2 {
+  text-align: center;
+  line-height: 45px;
+  padding-left: 10px;
+}
+.picamsterdam h1 {
+  text-align: center;
+  padding-top: 45px;
+}
+.picamsterdam p {
+  padding-top: 50px;
+  text-align: center;
+  line-height: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  position: relative;
+}
+.picamsterdam a {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.picearth {
+  background-image: url(http://www.star.ucl.ac.uk/~apod/apod/image/1707/EarthAtNight_SuomiNPP_3600.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  margin-top: -75px;
+  color: white;
+}
+.picearth h1 {
+  color: white;
+  padding-top: 150px;
+  font-size: 40px;
+}
+.picearth .links {
+  height: 20px;
+  width: 300px;
+  background-color: gray;
+  display: flex;
+  justify-content: flex-end;
+}
+.picearth .links :first-child {
+  border-right: 0.5px black solid;
+}
+.picearth .links a {
+  padding-left: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.picearth h2 {
+  font-size: 21px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  font-size: 21px;
+}
+
+.footer {
+  width: auto;
+  height: 305px;
+}
+.footer-top {
+  width: auto;
+  height: 235px;
+  background: #312e2b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-menu {
+  list-style-type: none;
+  color: #7e7d7d;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.footer-top-center h5 {
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+}
+
+.footer-sociallink {
+  list-style-type: none;
+  color: #afafaf;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.2;
+}
+
+.footer-top-right h5 {
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+}
+
+.footer-bottom {
+  width: auto;
+  height: 70px;
+  background: #1f1e1c;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom p {
+  color: #afafaf;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  padding: 25px 120px 25px 120px;
+}
+
+.footer-bottom a {
+  color: #f15a22;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
